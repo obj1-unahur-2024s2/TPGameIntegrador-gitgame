@@ -27,7 +27,7 @@ class Enemigo {
 
 } 
 
-object esqueletos{
+class Esqueleto{
     const property nombre = "Esqueleto"
 
     var movilidad = 5
@@ -48,7 +48,7 @@ object esqueletos{
     }
 }
 
-object duendes{
+class Duende{
     const property nombre = "Duende"
 
     var movilidad = 15
@@ -70,7 +70,7 @@ object duendes{
     }
 }
 
-object gargolas{
+class Gargola{
     const property nombre = "Gargola"
     var movilidad = 5
 
@@ -91,7 +91,7 @@ object gargolas{
     }
 }
 
-object golems{
+class Golem{
     const property nombre = "Golem"
     var movilidad = 4
 
@@ -112,7 +112,7 @@ object golems{
     }
 }
 
-object jefes{
+class Jefe{
     const property nombre = "Jefe"
     var movilidad = 5
 

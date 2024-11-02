@@ -1,3 +1,6 @@
+import enemigos.*
+import pantalla.*
+
 class Torre {
  
 
@@ -30,7 +33,7 @@ class Torre {
     }
 }
 
-object torreDeArqueros {
+class TorreDeArqueros {
     const property nombre = "Torre de Arqueros"
 
     var nivel = 1
@@ -77,7 +80,7 @@ object torreDeArqueros {
 
 }
 
-object torreDeHielo {
+class TorreDeHielo {
     const property nombre = "Torre de Hielo"
 
     var nivel = 1
@@ -119,7 +122,7 @@ object torreDeHielo {
     }
 
     method efectoRelantizar(){
-        enemigos.movimiento() - 3
+     enemigos.movilidad()
     }  
 
     method costoDeMonedas(){
@@ -128,7 +131,7 @@ object torreDeHielo {
 
 }
 
-object torreBallesta {
+class TorreBallesta {
     const property nombre = "Torre Ballesta"
 
     var nivel = 1
@@ -175,7 +178,7 @@ object torreBallesta {
 
 }
 
-object torreCanon {
+class TorreCanon {
     const property nombre = "Torre de Arqueros"
 
     var nivel = 1
