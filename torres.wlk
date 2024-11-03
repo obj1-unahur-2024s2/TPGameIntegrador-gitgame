@@ -3,6 +3,20 @@ import pantalla.*
 
 class Torre {
  
+    var posicion 
+
+
+    method posicion(){
+        return posicion
+    }
+
+    method construirTorre(unaPosicion){ // Fijarme dsp como cambiarlo, tira error
+        posicion == unaPosicion  // this.posicion lo encontre de un lado, no me acuerdo de donde. Averiguar porque no funciona // Act, el this funciona como self, pagina media rara donde saque eso
+    }  // No me convence mucho sobre esto, cambiarlo dsp
+
+    method atacar(enemigos){
+        enemigos.forEach({e => if(e.posicion() == self.posicion()) e.recibirDanio()})
+    }
 
     method nombre(unaTorre){
         return unaTorre.nombre()
@@ -47,7 +61,7 @@ class TorreDeArqueros {
     }
 
     method mejorarTorreAlNivel2(){
-      if(pantalla.cantDeMonedas > 15 )  
+      if(pantalla.cantMonedas() > 15 )  
         nivel += 1
     }
 
@@ -55,6 +69,8 @@ class TorreDeArqueros {
       if(pantalla.cantDeMonedas > 30 )  
         nivel += 1
     }
+
+    // No se porque el error de pantalla, si el method ya esta hechoooo
 
     method danio(){
         return danio 
@@ -123,7 +139,7 @@ class TorreDeHielo {
 
     method efectoRelantizar(){
      enemigos.movilidad()
-    }  
+    }  // Y este error ??????????????????
 
     method costoDeMonedas(){
         return 25
@@ -234,7 +250,6 @@ class TorreCanon {
 
 /* Cosas que nos faltan:
 1. El method de atacar si un enemigo esta cerca.
-2. Nos falta la torre nucleo
 */
 
 // ------------------------------------------------------------------------------------------------------//

@@ -1,9 +1,13 @@
 import wollok.game.*
-
 import torres.*
+import enemigos.*
+import pantalla.*
+import monedas.*
 
-program PepitaGame {
-	game.title("Pepita")
+
+program juego {
+	game.title("Defendiendo la defensa defendedida por las torres")
+	game.boardGround("") // Falta la imagen del mapa
 	game.height(10)
 	game.width(10)
 
@@ -12,7 +16,12 @@ program PepitaGame {
 
 	//
 
-	game.showAttributes(Torre) //Debug
+	
 
 	game.start()
 }
+
+
+// No se porque no arrancaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+// Ema tenia razon, si arranca el titulo ya es mucho

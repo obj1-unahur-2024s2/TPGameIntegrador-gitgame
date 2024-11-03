@@ -1,5 +1,13 @@
+import monedas.*
 class Enemigo {
     
+    var posicion = 0
+
+    method mover(){ // Para mover el enemigo, nos faltaba ya desde antes jajaja
+        posicion += 1
+    }
+
+
     method nombre(unEnemigo){
         return unEnemigo.nombre()
     }
@@ -20,10 +28,17 @@ class Enemigo {
         return unEnemigo.cantDeMonedas()
     }
 
-    method recibirAtaque(unEnemigo,unaTorre){
+    method recibirAtaque(unEnemigo, unaTorre){
         self.salud(unEnemigo) - unaTorre.danio()
+        if(self.salud(unEnemigo) <= 0){
+            self.morir(unEnemigo)
+        } 
     }
 
+    method morir(pantalla){
+        var monedas = new Monedas()
+        monedas.recoger(pantalla)
+    }
 
 } 
 
@@ -141,7 +156,7 @@ class Jefe{
 */
 
 /* Cosas que nos faltan
-
+ 1. Todavia me falta como reducir la velocidad al disparar con una torre de hielo
 */
 
 
