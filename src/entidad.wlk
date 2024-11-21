@@ -8,7 +8,7 @@ import wollok.game.*
  *                      saber si es un muro, por defecto FALSE
  * 
  * Aca irian todo lo que sea comun a los objetos del game
- * 
+ * Proporciona métodos para determinar si hay muros o enemigos en posiciones específicas, lo que podría ser útil para la lógica de colisiones, movimientos o ataques.
  * */ 
  
 class Entidad {
