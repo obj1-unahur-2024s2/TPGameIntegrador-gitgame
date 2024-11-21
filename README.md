@@ -52,9 +52,4 @@ En este desafiante juego, tu objetivo es mantener al astronauta con vida y evita
 
 A medida que te sumerges en "Cosmic Wars", te animamos a explorar tu habilidad y determinación. Afronta los desafíos con valentía, disfruta de la emoción del juego, diviértete y demuestra tu perseverancia en cada intento. ¡Que esta experiencia en "Cosmic Wars" te inspire a superar tus propios límites en cualquier desafío que enfrentes en la vida!
 
-# Equipo de desarrollo - Comisión 1 (TURNO NOCHE) - 2023 :
 
-- Gutierrez, Gabriel Facundo.
-- Rubianes, Lisandro Agustin.
-- Calderon, Luana. 
-- Crevatin, Elias.
