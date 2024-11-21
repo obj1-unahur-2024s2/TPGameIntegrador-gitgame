@@ -202,7 +202,7 @@ class Alien inherits Entidad{
 
 method yMasUno() {
 	    const nuevaPosicion = game.at(x,y + 1)
-	    if(!self.hayEnemigo(nuevaPosicion)){
+	    if(!self.hayEnemigo(nuevaPosicion) and !self.hayMuro(nuevaPosicion)){
 	    	position = nuevaPosicion
 		    y = position.y()
 		    image = "alien1Arriba.png"
@@ -211,7 +211,7 @@ method yMasUno() {
 	
 method yMenosUno() {
 	    const nuevaPosicion = game.at(x,y - 1)
-	    if(!self.hayEnemigo(nuevaPosicion)){
+	    if(!self.hayEnemigo(nuevaPosicion) and !self.hayMuro(nuevaPosicion)){
 	    	position = nuevaPosicion
 		    y = position.y()
 		    image = "alien1.png"
@@ -221,7 +221,7 @@ method yMenosUno() {
 	
 method xMasUno() {
 	    const nuevaPosicion = game.at(x + 1,y)
-	    if(!self.hayEnemigo(nuevaPosicion)){
+	    if(!self.hayEnemigo(nuevaPosicion) and !self.hayMuro(nuevaPosicion)){
 	    	position = nuevaPosicion
 		    y = position.y()
 		    image = "alien1Derecha.png"
@@ -232,7 +232,7 @@ method xMasUno() {
 	
 method xMenosUno() {
 	    const nuevaPosicion = game.at(x - 1,y)
-	    if(!self.hayEnemigo(nuevaPosicion)){
+	    if(!self.hayEnemigo(nuevaPosicion) and !self.hayMuro(nuevaPosicion)){
 	    	position = nuevaPosicion
 		    y = position.y()
 		    image = "alien1Izquierda.png"
