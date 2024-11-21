@@ -1,54 +1,60 @@
-# Defendiendo la defensa defendida por los defensores // No se, dsp se decide bien
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/hUnPAC5R)
 
-## Equipo de desarrollo
+# Cosmic Wars - Universidad Nacional de Hurlingham.
 
-GitGame
+![imagen de portada](./assets/portada.png)
 
-- ivanhss
-- Adry Avila
-- Emanuel Ignacio Chávez
-- AgusO25
+# ¡Bienvenido a "Cosmic Wars"!
+En este desafiante juego, tu objetivo es mantener al astronauta con vida y evitar que los aliens lo atrapen. Demuestra tu habilidad al mantener al astronauta a salvo. Supera tus límites y desafía a tus amigos en este emocionante desafío. 
+¡Diviértete y disfruta de "Cosmic Wars"!
 
-## Capturas
+## Reglas del juego "Cosmic Wars:
 
-(agregar)
+1. Abre el juego "Cosmic Wars" en tu dispositivo o plataforma preferida.
 
-## Reglas de Juego / Instrucciones
+2. Al comenzar el juego, verás un astronauta en la pantalla y alienígenas a su alrededor.
 
-1) Objetivo del Juego
-    El jugador debe proteger su base de oleadas de enemigos que intentan llegar a un punto crítico del mapa. Para lograrlo, puede construir torres defensivas a lo largo de caminos predefinidos por donde pasan los enemigos. El objetivo principal es detener a los enemigos antes de que alcancen la base, utilizando una estrategia eficiente en la colocación y mejora de las torres.
+3. El objetivo del juego es guiar al astronauta a través de los espacios entre los alienígenas sin ser atrapado.
 
-2) Torres Defensivas
-    Tipos de Torres:
-    Torre de Arqueros: Dispara proyectiles a los enemigos a alta velocidad pero con bajo normal.
-    Torre de Hielo: Tiene daño normal, pero relentiza a los enemigos.
-    Torre Ballesta: Tiene daño normal, con recarga lenta.
-    Torre Cañon: Causa daño en un área específica, afectando a varios enemigos al mismo tiempo.
-    Colocación de Torres: El jugador puede construir torres solo en áreas específicas del mapa. Cada torre tiene un costo, y el jugador debe administrar los recursos (monedas o puntos) para construir y mejorar torres.
-    Mejoras de Torres: Cada torre se puede mejorar en tres niveles. Las mejoras aumentan la velocidad, el daño y el alcance.
+4. Evita no perder contra ningún alienígenas.
 
+5. Mantén la concentración y los reflejos rápidos para tener éxito.
 
-3) Tipos de Enemigos:
-    Esqueletos: Tienen baja salud y se mueven normal.
-    Duendes: Son más difíciles de detener debido a su velocidad, pero tienen muy poca salud.
-    Golems: Enemigos con mucha salud y con movilidad muy lenta.
-    Gargolas: Solo pueden ser atacados por torres especializadas en ataques aéreos.
-    Jefes: Aparecen al final de la ultima oleada y tienen bastante vida.
+6. El juego termina si el astronauta se queda sin vidas.
 
-4) Recursos y Economía
-    Monedas: El jugador gana monedas por derrotar a los enemigos. Estas monedas se utilizan para construir nuevas torres o mejorar las existentes.
-    Puntos de Energía: Algunas torres o habilidades requieren puntos de energía para activarse, lo que limita su uso.
-    Oleadas de Enemigos: Los enemigos llegan en oleadas. Cada oleada es más difícil que la anterior, con un mayor número de enemigos o enemigos más fuertes.
+7. Compite con tus amigos para ver quién obtiene la puntuación más alta.
 
-5) Habilidades Especiales
-    El jugador puede desbloquear habilidades especiales, como bombardear una zona o congelar temporalmente a todos los enemigos en el mapa. Estas habilidades tienen un tiempo de recarga, por lo que deben usarse estratégicamente.
+# Instrucciones del juego "Cosmic Wars" (Teclas):
 
-6) Pérdida y Victoria
-    El jugador pierde si un número determinado de enemigos logra llegar a la base. La victoria se obtiene al sobrevivir a todas las oleadas de enemigos.
+## Movimientos:
 
+- Moverse hacia arriba: Presiona la tecla W.
 
-## Otros
+- Moverse hacia abajo: Presiona la tecla S.
 
-- Curso/Facultad
-- Versión de wollok
-- Una vez terminado, no tenemos problemas en que el repositorio sea público / queremos manternerlo privado
+- Moverse hacia la izquierda: Presiona la tecla A.
+
+- Moverse hacia la derecha: Presiona la tecla D.
+
+## Defensa:
+
+- Disparar (Balas): Presiona la tecla h. 
+
+![imagen movimientos](./assets/teclas.png)
+
+# Presentacion:
+
+![imagen movimientos](./assets/ganar.png)
+
+![imagen movimientos](./assets/perder.png)
+
+¡Diviértete jugando "Cosmic Wars" y desafía tus habilidades para llegar lo más lejos posible!
+
+A medida que te sumerges en "Cosmic Wars", te animamos a explorar tu habilidad y determinación. Afronta los desafíos con valentía, disfruta de la emoción del juego, diviértete y demuestra tu perseverancia en cada intento. ¡Que esta experiencia en "Cosmic Wars" te inspire a superar tus propios límites en cualquier desafío que enfrentes en la vida!
+
+# Equipo de desarrollo - Comisión 1 (TURNO NOCHE) - 2023 :
+
+- Gutierrez, Gabriel Facundo.
+- Rubianes, Lisandro Agustin.
+- Calderon, Luana. 
+- Crevatin, Elias.

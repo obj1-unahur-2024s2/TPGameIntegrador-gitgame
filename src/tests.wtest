@@ -1,0 +1,55 @@
+//INICIO TEST
+
+
+import wollok.game.*
+import disparo.*
+import entidad.*
+import obstaculos.*
+import oleadas.*
+import pantalla.*
+import personajes.*
+
+
+describe "test astronauta" {
+	
+	test "el astronauta debe quedar en la posicion x= 13 y = 8 depsues de moverse 4 veces(dos derecha,dos abajo)" {
+		astronauta1.irALaDerecha()
+		astronauta1.irALaDerecha()
+		astronauta1.irAbajo()
+		astronauta1.irAbajo()
+     
+     assert.equals(13,astronauta1.x())
+     assert.equals(8,astronauta1.y())
+		
+	}
+	
+	test "el astronauta debe quedar en la posicion x= 9 y = 12 depsues de moverse 4 veces(dos izquierda,dos arriba)"{
+		astronauta1.irALaIzquierda()
+		astronauta1.irALaIzquierda()
+		astronauta1.irArriba()
+		astronauta1.irArriba()
+		
+		assert.equals(9,astronauta1.x())
+		assert.equals(12,astronauta1.y())
+	}
+     
+    
+    
+    test "recibio danio y se le bajo la cantidad de vidas" {
+    	astronauta1.recibirDanio()
+    	assert.equals(9,astronauta1.cantidadDeVidas())
+    } 
+}
+
+
+
+describe "test alien" {
+	const alien1  = new AlienBase()
+	
+	
+	test "yMasUno" {
+		alien1.yMasUno()
+		
+		assert.equals("alien1Arriba.png",alien1.image())		
+	}
+}

@@ -1,0 +1,15 @@
+import wollok.game.*
+import personajes.*
+import pantalla.*
+
+
+program juego {
+	
+	game.title("Cosmic Wars")
+	
+	pantalla.empezar()
+	
+	game.start()
+	
+	
+}
