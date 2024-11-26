@@ -24,4 +24,5 @@ class Entidad {
 	}
 	method esEnemigo() = false
 	
+	
 }

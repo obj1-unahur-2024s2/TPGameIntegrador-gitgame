@@ -42,6 +42,9 @@ object moneda inherits Entidad  {
 	}
 	
 	override method esEnemigo() = true
+
+	
+
 	
 	
 }
