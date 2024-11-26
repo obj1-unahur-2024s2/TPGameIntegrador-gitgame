@@ -19,7 +19,7 @@ object pantalla {
 	const vida9 = new Vida(numeroVida = 9)
 	const vida10 = new Vida(numeroVida = 10)
 	
-	 const cartelInicio = new CartelInicial( image = "portada.png") 
+	 const cartelInicio = new CartelInicial( image = "portadaNueva.png") 
 	
 method empezar() {
 		
@@ -173,7 +173,7 @@ method empezar() {
 	keyboard.r().onPressDo({
 		if(game.hasVisual(cartelGameOver) ) {
 			
-			cartelInicio.cambiarImage("portada.png")
+			cartelInicio.cambiarImage("portadaNueva.png")
 			game.removeVisual(cartelGameOver)
 			game.addVisual(cartelInicio)
 			astronauta1.reiniciar()

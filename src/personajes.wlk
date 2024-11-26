@@ -119,7 +119,7 @@ object astronauta1 inherits Entidad {
 /*FIN DE DEFENDERSE*/
   
 method recibirDanio() {
- 	if(!recibioDanio and !moneda.esEnemigo()) {
+ 	if(!recibioDanio) {
  	cantidadDeVidas = cantidadDeVidas - 1
 	recibioDanio = true
  	vidas.forEach({v => if(game.hasVisual(v)){v.perderVida()}})

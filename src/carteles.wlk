@@ -26,7 +26,7 @@ class CartelInicial inherits Cartel {
 	method desaparecer() = { => self.cambiarImagenes()}
 	
 	method cambiarImagenes() {
-		if(image == "portada.png") {image = "teclas.png"}
+		if(image == "portadaNueva.png") {image = "teclas.png"}
 		else if (image == "teclas.png") {
 			game.removeVisual(self)
 		    game.addVisual(cartelOleada)  
