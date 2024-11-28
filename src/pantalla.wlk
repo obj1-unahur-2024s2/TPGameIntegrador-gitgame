@@ -146,7 +146,7 @@ method empezar() {
 	
 /*TECLAS*/	
 	game.onTick(3000,"checkearEstadoOleada",{if(!oleadas.hayAliens() and  !oleadas.oleadas().isEmpty()){oleadas.cambiarDeOleada()}})
-	/*game.schedule(400,{musica.play() musica.loop()})*/
+	game.schedule(400,{musica.play() musica.loop()})
 	game.onTick(10000,"aparecerMoneda",{moneda.aparecer()})
 	game.onTick(1,"recuperarVida",{vida1.sumarVida()})
 	game.onTick(1,"recuperarVida",{vida2.sumarVida()})
@@ -167,7 +167,7 @@ method empezar() {
 	keyboard.d().onPressDo({astronauta1.irALaDerecha()})
 	keyboard.s().onPressDo({astronauta1.irAbajo()})
 	keyboard.h().onPressDo({astronauta1.disparar()})
-	keyboard.m().onPressDo({musica.loop() musica.play() musica.volumen(0.1)}) 
+	keyboard.enter().onPressDo({musica.loop() musica.play() musica.volumen(0.1)}) 
 	keyboard.n().onPressDo({ musica.stop()})
 	keyboard.enter().onPressDo(cartelInicio.desaparecer())
 	keyboard.r().onPressDo({

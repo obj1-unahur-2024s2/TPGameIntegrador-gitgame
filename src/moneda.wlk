@@ -27,7 +27,7 @@ object moneda inherits Entidad  {
 	
 	method noAparecerEnMuro() {
 		if(self.hayMuro(self.position())) {
-		position =game.at(2.randomUpTo(13),2.randomUpTo(13))
+		position = game.at(x,y - 3)
 	} else {
 		game.addVisual(self)
 		x =  position.x()
