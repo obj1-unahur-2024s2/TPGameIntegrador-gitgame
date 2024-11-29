@@ -166,7 +166,7 @@ method empezar() {
 	keyboard.w().onPressDo({astronauta1.irArriba()})
 	keyboard.d().onPressDo({astronauta1.irALaDerecha()})
 	keyboard.s().onPressDo({astronauta1.irAbajo()})
-	keyboard.h().onPressDo({astronauta1.disparar() sonidoDisparo.loop() sonidoDisparo.play() sonidoDisparo.volumen(0.1)})
+	keyboard.h().onPressDo({astronauta1.disparar()})
 	keyboard.m().onPressDo({musica.loop() musica.play() musica.volumen(0.1)}) 
 	keyboard.n().onPressDo({ musica.stop()})
 	keyboard.enter().onPressDo(cartelInicio.desaparecer())
@@ -212,7 +212,6 @@ object musica{
 object sonidoDisparo{
 	const sonidoDisparo = game.sound("SonidoDisparo1.mp3")
 
-	method loop() {sonidoDisparo.shouldLoop(false)}
 	method play() {sonidoDisparo.play()}
 	method stop() {sonidoDisparo.stop()}
 	method volumen(nivelDeSonido) = sonidoDisparo.volume(nivelDeSonido)
